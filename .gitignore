@@ -1,0 +1,22 @@
+# Python virtual environment
+venv/
+**/venv/
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# IDE configuration files
+.idea/
+.vscode/
+*.swp
+
+# Docker data volumes (auto-generated)
+minio-data/
+nessie-data/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
